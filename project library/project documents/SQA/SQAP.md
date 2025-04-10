@@ -82,84 +82,74 @@ Refer to Contract with BIGmuscles Inc.
 
 ---
 
-## 4. Management
-
-*Content to be added in future versions.*
-
----
-
-## 5. Documentation
-
-*Content to be added in future versions.*
+## 4. Management  
+The FitChat project is managed by Software Solutions. The QA Manager is responsible for ensuring QA activities are performed. Regular status meetings will be held weekly to review progress and issues.
 
 ---
 
-## 6. Standards, Practices, Conventions, and Metrics
-
-*Content to be added in future versions.*
-
----
-
-## 7. Reviews and Audits
-
-*Content to be added in future versions.*
+## 5. Documentation  
+Key documents include the CONOPS, SQAP, design specs, test plans, and user manuals. All documents are stored in the GitHub CM Library and updated with each project milestone.
 
 ---
 
-## 8. Test
-
-*Content to be added in future versions.*
-
----
-
-## 9. Problem Reporting and Corrective Action
-
-*Content to be added in future versions.*
+## 6. Standards, Practices, Conventions, and Metrics  
+We follow IEEE 730-2014 standards. Coding conventions are based on common mobile development best practices. Metrics include defect density and test coverage.
 
 ---
 
-## 10. Tools, Techniques, and Methodologies
-
-*Content to be added in future versions.*
-
----
-
-## 11. Code Control
-
-*Content to be added in future versions.*
+## 7. Reviews and Audits  
+Code and document reviews occur at each milestone. Formal audits may be performed by the QA team or project stakeholders.
 
 ---
 
-## 12. Media Control
-
-*Content to be added in future versions.*
-
----
-
-## 13. Supplier Control
-
-*Content to be added in future versions.*
+## 8. Test  
+Testing includes unit, integration, and system testing. Test cases are created from requirements. Both manual and automated testing will be used.
 
 ---
 
-## 14. Records Collection, Maintenance, and Retention
-
-*Content to be added in future versions.*
-
----
-
-## 15. Training
-
-*Content to be added in future versions.*
+## 9. Problem Reporting and Corrective Action  
+Issues are tracked using GitHub Issues. Developers fix bugs and QA re-tests before closing. Major issues are discussed in team meetings.
 
 ---
 
-## 16. Risk Management
-
-*Content to be added in future versions.*
+## 10. Tools, Techniques, and Methodologies  
+We use GitHub for version control and issue tracking. Testing tools may include JUnit (Android) and XCTest (iOS). Agile methodology is followed with 2-week sprints.
 
 ---
 
-## 17. Glossary
+## 11. Code Control  
+All code is stored in a private GitHub repository. Changes require pull requests and approvals. Version tags are used for releases.
 
-*Content to be added in future versions.*
+---
+
+## 12. Media Control  
+Media files (images, icons) are stored in a centralized folder within the project repo. Only the design team may update them.
+
+---
+
+## 13. Supplier Control  
+We do not use external software suppliers. All work is performed by the internal team at Software Solutions.
+
+---
+
+## 14. Records Collection, Maintenance, and Retention  
+Project records are stored in GitHub and backed up regularly. Documents are retained for the life of the product.
+
+---
+
+## 15. Training  
+Team members are trained on project tools, development practices, and QA procedures during onboarding and as needed.
+
+---
+
+## 16. Risk Management  
+Risks are identified during planning and reviewed in meetings. Common risks include app crashes, data syncing issues, and user privacy concerns. Mitigation includes testing, code reviews, and secure design.
+
+---
+
+## 17. Glossary  
+- **QA** – Quality Assurance  
+- **CM** – Configuration Management  
+- **UI** – User Interface  
+- **API** – Application Programming Interface  
+- **GitHub** – A platform for version control and collaboration  
