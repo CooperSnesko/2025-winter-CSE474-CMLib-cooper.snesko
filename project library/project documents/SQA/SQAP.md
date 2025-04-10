@@ -153,3 +153,141 @@ Risks are identified during planning and reviewed in meetings. Common risks incl
 - **UI** – User Interface  
 - **API** – Application Programming Interface  
 - **GitHub** – A platform for version control and collaboration  
+
+---
+
+## Configuration Infrastructure
+
+### Part 1: Identified Configuration Items (CIs) from CMM Activities
+
+**CMM Level 2**  
+*Key Process Areas: Software Project Planning, Software Quality Assurance*  
+1. Project schedule  
+2. Cost estimate  
+3. Staffing plan  
+4. Risk management plan  
+5. Quality Assurance Plan  
+6. Audit results  
+7. SQA plan compliance report  
+8. Meeting notes from planning review  
+9. Requirements traceability matrix  
+10. Review checklist
+
+**CMM Level 3**  
+*Key Process Areas: Peer Reviews, Organization Process Focus*  
+11. Peer review reports  
+12. Training materials  
+13. Organization standard procedures  
+14. Process improvement proposals  
+15. Internal audit checklists
+
+**CMM Level 4**  
+*Key Process Areas: Software Quality Management, Quantitative Process Management*  
+16. Quality metrics reports  
+17. Process capability baselines  
+18. Data analysis results  
+19. Quality goal tracking reports  
+20. Software defect metrics report
+
+**CMM Level 5**  
+*Key Process Areas: Defect Prevention, Process Change Management*  
+21. Causal analysis meeting minutes  
+22. Defect prevention plans  
+23. Action proposals from defect meetings  
+24. Defect trend charts  
+25. Process revision logs
+
+**Additional from other levels to reach 30 total**  
+26. Version control logs  
+27. Integration test summary  
+28. Unit test reports  
+29. Configuration management meeting notes  
+30. Software release notes
+
+---
+
+### Part 2: Categorized Configuration Items
+
+**Project Library**
+- *Program Management*:  
+  - Program Management Plan  
+  - Project Management Budget  
+  - Weekly project status meetings  
+  - Project Management: Cause, Analysis, and Resolution  
+  - Program Management Schedule  
+- *System Engineering*:  
+  - Software Requirements Specification  
+  - Architecture Design Document  
+  - Rough order of magnitude  
+- *Configuration Management*:  
+  - Configuration Management Process (all listed variations)  
+  - Configuration Management Policies  
+  - Version Description Document  
+  - Weekly planning meetings  
+- *Software Development*:  
+  - Software Development Plan  
+  - Development plan for Module B  
+  - Software Development Reviews of Unit A.1-A.6  
+  - Software Development Reviews of Unit B.1-B.7  
+  - Software Development Review checklist  
+- *Software Testing*:  
+  - Software Testing Plan  
+  - Test Case checklists  
+  - System Test Cases  
+  - Acceptance Test Cases  
+  - Software Testing Process (Update)  
+- *Quality Assurance*:  
+  - Quality Assurance Plan  
+  - Peer review reports  
+  - Audit reports  
+
+**Software Library**
+- *Source Code*:  
+  - Main app source files  
+- *Test Code*:  
+  - Unit Test for Module A  
+- *Test Data*:  
+  - Input/output data for test cases  
+- *Test Scripts*:  
+  - Nightly automated test scripts  
+- *Delivery Scripts*:  
+  - Compile scripts  
+  - Version build script  
+- *Configuration Scripts*:  
+  - Scripts to build new SW work product  
+- *3partylibrary*:  
+  - 3-Party library compiled code  
+- *3partySourceCode*:  
+  - Source code (if available) from 3rd party  
+- *Deliveries*:  
+  - Delivery package for Mobile App  
+  - Delivery package for Windows App  
+  - Delivery package for Web Server  
+  - Delivery package for Web Client  
+  - Delivery package for iOS App  
+  - Delivery package for Linux App  
+
+---
+
+### Part 3: Organized Library Infrastructure
+
+**Project Library**
+- /project_library/  
+  ├── program_management/  
+  ├── system_engineering/  
+  ├── configuration_management/  
+  ├── software_development/  
+  ├── software_testing/  
+  └── quality_assurance/  
+
+**Software Library**
+- /software_library/  
+  ├── source_code/  
+  ├── test_code/  
+  ├── test_data/  
+  ├── test_scripts/  
+  ├── delivery_scripts/  
+  ├── configuration_scripts/  
+  ├── 3partylibrary/  
+  ├── 3partySourceCode/  
+  └── deliveries/
